@@ -15,10 +15,10 @@ Esse projeto tem como objetivo criar uma API que recomende filmes infantis que a
 
 ## Instalação 💻
 
-*Clone o repositório:
+* Clone o repositório:
 > git clone https://github.com/hestturia/Mini-Projeto-M4
 
-*Instale as dependências:
+* Instale as dependências:
 > npm install
 
 ## Executando o app ✅
