@@ -1,4 +1,4 @@
-import { getAllMovies, getMovieById, getMoviesByDirector } from '../controllers/movie.controller.js';
+import { getAllMovies, getMovieById, getMoviesByDirector  } from '../controllers/movie.controller.js';
 import { Router } from 'express';
 
 const movieRouter = Router();

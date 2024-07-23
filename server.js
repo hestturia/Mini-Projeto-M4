@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api', movieRouter);
+app.use(movieRouter);
 
 const PORT = 3000;
 
