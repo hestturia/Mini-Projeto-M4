@@ -1,6 +1,6 @@
 # Mini Projeto M4 - Programadores do Amanhã
 
-## 🍃 Consciência Ecológica na sua TV
+## 🍃 Consciência Ecológica na TV
 
 Esse projeto tem como objetivo criar uma API que recomende filmes infantis que abordem o tema de Consciência Ambiental, visando educar as crianças através de uma forma de entretenimento!
 
@@ -23,9 +23,17 @@ Esse projeto tem como objetivo criar uma API que recomende filmes infantis que a
 
 ## Executando o app ✅
 
-* npm run start
+* npm start
 
 ## Endpoints
+*Retorne todos os filmes*
+movieRouter.get('/movie/all', getAllMovies);
+
+*Retorne Filme por ID*
+movieRouter.get('/movie/:id', getMovieById);
+
+*Retorne filme por Diretor*
+movieRouter.get('/movie/director/:director', getMoviesByDirector);
 
 ## ✒️ Licença
 
