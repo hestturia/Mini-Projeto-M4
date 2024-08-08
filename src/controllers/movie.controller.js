@@ -28,6 +28,6 @@ import movieDatabase from '../database/movie.database.js';
     if (filteredMovies.length > 0) {
       res.json(filteredMovies);
     } else {
-      res.status(404).json({ message: 'Filme não encontrado' });
+      res.status(404).json({ message: 'Não foram encontrados filmes para esse diretor' });
     }
   };
